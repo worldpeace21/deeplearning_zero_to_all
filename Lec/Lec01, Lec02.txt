@@ -1,0 +1,27 @@
+머신러닝(Machine Learning)
+
+Lec 01: 기본적인 Machine Learning 의 용어와 개념 설명
+
+1. 학습하는 방법에 따른 머신러닝 종류
+1) 지도학습(Supervised Learning): 레이블이 달려있는 데이터를 가지고 학습
+2) 비지도학습(Unsupervised Learning): 레이블이 달려있지 않은 데이터를 가지고 학습
+
+2. 지도학습(Supervised Learning)의 종류
+1) 회귀(Regression)
+2) 이진분류(Binary classification)
+3) 다중분류(Multi-label classification)
+
+
+
+Lec 02: Simple Linear Regression
+
+1. 선형 회귀(Linear Regression) 개념
+1) 데이터를 잘 대변하는 직선의 방정식을 찾는 것
+2) y = Wx + b 에서 W와 b 즉 기울기와 절편을 찾는 것
+
+2. 어떤 직선이 데이터를 잘 대변한다고 할 수 있을까?
+1) 가설(Hypothesis): H(x)=Wx+b
+2) 손실(Cost): 가설과 실제값의 차이(error라고도 함)
+3) 손실(Cost)를 최소화하는 직선의 방정식을 찾는 것
+4) 손실(Cost)을 최소화하는 W와 b를 찾는 것 
+5) 대표적인 손실함수(Cost function) : cost(W,b) = mean(sum((H(x)-y)^2))
